@@ -1,7 +1,9 @@
 ResPCANet
 A repository for the code used to create and train the model defined in "PCANet Combined with Residual Connection for Hyperspectral Image Classification". https://ieeexplore.ieee.org/document/9980165 
 
+
 2023.02.21
+-------------------------------------------
 I have submitted the comparison method, PCANet(2015) in the paper. This model is mainly based on the implementation of pytorch and python3. My model code is improved on this basis. You can modify the code slightly to complete the implementation of the code. If you have questions, you can leave a message.
 
 
