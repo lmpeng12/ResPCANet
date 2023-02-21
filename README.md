@@ -9,8 +9,6 @@ I have submitted the comparison method, PCANet(2015) in the paper. This model is
 
 Citation
 -------------------------------------------
---
-BibTeX entry:
 ```
 @INPROCEEDINGS{9980165,
   author={Li, Mianpeng and Xu, Xiang},
