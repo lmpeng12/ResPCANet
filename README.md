@@ -9,6 +9,9 @@ I have submitted the comparison method, PCANet(2015) in the paper. This model is
 
 Citation
 -------------------------------------------
+--
+BibTeX entry:
+```
 @INPROCEEDINGS{9980165,
   author={Li, Mianpeng and Xu, Xiang},
   booktitle={2022 15th International Congress on Image and Signal Processing, BioMedical Engineering and Informatics (CISP-BMEI)}, 
@@ -18,7 +21,7 @@ Citation
   number={},
   pages={1-7},
   doi={10.1109/CISP-BMEI56279.2022.9980165}}
-
+```
 
 building
 ------------------------------------------
