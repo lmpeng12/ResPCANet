@@ -60,7 +60,8 @@ class PCANet(nn.Module):
                                     out_channels=k1 * k2 * self.input_channel,
                                     kernel_size=(k1,k2),
                                     stride=1)
-        # 赋值生成每个像素点的限制矩阵，并且不进行有关的学习过程
+        
+        #The assignment generates the limit matrix of each pixel point, and does not carry out the relevant learning process
         if 1 == 1:
             mean_conv1_parameters = torch.eye(k1 * k2)
             mean_conv1_parameters = mean_conv1_parameters.reshape(1,k1*k2,k1,k2)
@@ -144,16 +145,16 @@ class PCANet(nn.Module):
         return cap_x_i
 
 
-    # 这一块后期再写成一个block进行处理，并且独立成为一个类别
+    # This block will be written into a block for processing later, and will become an independent category
     def pca_induced_filter(self,train_data,out_put_channel):
         '''
         :param train_data:
         :param out_put_channel:
         :return:
-        # 分块的大小
-        patch_width = self.k1 # 这个每次的选取卷积核大小都不固定，因此这里边还是需要说稍微考究一下的
+        # Block size
+        patch_width = self.k1 #The size of the selected convolution kernel is not fixed each time, so here we need to be a little more careful
         patch_height = self.k2
-        # 计算分块的列长度处理，这里默认了行移动和列移动都是1
+        # Calculate the column length of the block. The row and column movements are both 1 by default
         img_patch_width = w - patch_width + 1
         img_patch_height = h - patch_height + 1
         '''
@@ -185,7 +186,7 @@ class PCANet(nn.Module):
         filters_data = cap_w.T.reshape(out_put_channel,ch,self.k1,self.k2)
         return filters_data
 
-    #Directly operate the whole matrix without memory saving operation
+    # Directly operate the whole matrix without memory saving operation
     def extract_features_big_memory(self,x):
         #The output of binarization is assumed to be num L1 L2 w h
         num,L1,L2,w,h = x.shape
