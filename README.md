@@ -10,7 +10,7 @@ I have submitted the comparison method, PCANet(2014) in the paper. This model is
 
 Citation
 -------------------------------------------
-If you want to directly reference the method of pcanet, please directly reference the information of the work.
+If you want to directly reference the method of PCANet, please directly reference the information of the work.
 
 ```
 @ARTICLE{7234886,
