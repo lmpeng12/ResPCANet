@@ -12,7 +12,7 @@ Citation
 -------------------------------------------
 If you want to directly reference the method of pcanet, please directly reference the information of the work.
 
-'''
+```
 @ARTICLE{7234886,
   author={Chan, Tsung-Han and Jia, Kui and Gao, Shenghua and Lu, Jiwen and Zeng, Zinan and Ma, Yi},
   journal={IEEE Transactions on Image Processing}, 
@@ -22,7 +22,7 @@ If you want to directly reference the method of pcanet, please directly referenc
   number={12},
   pages={5017-5032},
   doi={10.1109/TIP.2015.2475625}}
-'''
+```
 
 The methods quoted in our paper are as follows.
 
